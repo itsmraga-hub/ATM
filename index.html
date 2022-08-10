@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Bank Log in</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Welcome to ABC Family Bank</h1>
+        <p>Motto: <span>Our customers always come first</span></p>
+      </section>
+      <form action="" class="form">
+        <input type="text" name="account" class="input" placeholder="account no">
+        <input type="password" class="input" placeholder="PIN" number>
+        <input type="submit" name="button" id="btn" class="btn" value="Log in">
+      </form>
+      <p>Account: 34113497 PIN: 1234</p>
+
+      <section class="bankAccount">
+        <h1>Welcome to you account</h1>
+        <h2 class="accountNo"></h2>
+        <p class="balance"></p>
+        <div class="dep-or-withdraw">
+          <div class="deposit-container">
+            <button class="dep-btn btn">Deposit</button>
+          </div>
+          <div class="withdraw-container">
+            <button class="withdraw-btn btn">Withdraw</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/bankLogic.js"></script>
+  </body>
+</html>

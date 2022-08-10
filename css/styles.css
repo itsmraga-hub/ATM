@@ -1,0 +1,17 @@
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form .input {
+  width: 30%;
+
+}
+
+.form .btn {
+  width: max-content;
+}
